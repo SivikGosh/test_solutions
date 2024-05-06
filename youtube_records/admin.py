@@ -5,4 +5,4 @@ from youtube_records.models import Record
 
 @admin.register(Record)
 class RecordAdmin(admin.ModelAdmin):
-    list_display = ('pk', 'name')
+    list_display = ('pk', 'title')

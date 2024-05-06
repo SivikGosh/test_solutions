@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'school_library',
-    'youtube_records'
+    'youtube_records',
+    'income_models'
 ]
 
 MIDDLEWARE = [

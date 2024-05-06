@@ -17,7 +17,7 @@ class Command(BaseCommand):
         amount = kwargs['amount']
         bar = Bar(max=amount)
         for i in range(1, amount):
-            records.append(Record(name=f'Запись № {i}'))
+            records.append(Record(title=f'Запись № {i}'))
             bar.next()
         bar.finish()
         Record.objects.bulk_create(records)

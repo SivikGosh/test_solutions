@@ -21,7 +21,7 @@ from school_library.views import some_queryset
 from youtube_records.views import delete_records
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('', admin.site.urls),
     path('some_queryset/', some_queryset, name='some_queryset'),
-    path('delete_records/', delete_records, name='delete_records')
+    path('delete_records/', delete_records, name='delete_records'),
 ]
